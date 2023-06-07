@@ -45,7 +45,7 @@ Feel free to reach out to me! 😊 <br />
 
 ---
 
-- [x] 1. What's the output?
+###### - [ ] 1. What's the output?
 
 ```javascript
 function sayHi() {
