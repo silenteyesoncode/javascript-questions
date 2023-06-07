@@ -1,0 +1,1 @@
+- [17. What's the output?](https://github.com/silenteyesoncode/javascript-questions#17-whats-the-output)
