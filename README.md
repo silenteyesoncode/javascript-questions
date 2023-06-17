@@ -716,6 +716,7 @@ const sum = eval('10*10+5');
 <img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 22. How long is cool_secret accessible?
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ```javascript
 sessionStorage.setItem('cool_secret', 123);
@@ -741,6 +742,7 @@ If you used `localStorage`, the data would've been there forever, unless for exa
 ---
 
 ###### 23. What's the output?
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ```javascript
 var num = 8;
@@ -769,6 +771,7 @@ You cannot do this with `let` or `const` since they're block-scoped.
 ---
 
 ###### 24. What's the output?
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ```javascript
 const obj = { 1: 'a', 2: 'b', 3: 'c' };
