@@ -5,7 +5,7 @@
 2. [Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects](#2-utilizing-the-rest-parameter-syntax-for-collecting-function-arguments-as-array-like-objects)
 
 3. [hasOwnProperty()](#3-hasownproperty)
-4. [Table summarizing the differences between var, let, and const in JavaScript](#4)
+4. [Table summarizing the differences between var, let, and const in JavaScript](#4-table-summarizing-the-differences-between-var-let-and-const-in-javascript)
 
 
 ## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers
