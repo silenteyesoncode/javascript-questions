@@ -143,6 +143,7 @@ There is no value `radius` on that object, which returns `NaN`.
 
 ---
 
+<img src="./mySvg.svg" alt="SVG Image" width="30"  />
 ###### 4. What's the output?
 
 ```javascript
@@ -167,7 +168,7 @@ The string `'Lydia'` is a truthy value. What we're actually asking, is "is this 
 </details>
 
 ---
-
+<img src="./mySvg.svg" alt="SVG Image" width="30"  />
 ###### 5. Which one is true?
 
 ```javascript
@@ -203,7 +204,7 @@ However, with dot notation, this doesn't happen. `mouse` does not have a key cal
 </details>
 
 ---
-
+<img src="./mySvg.svg" alt="SVG Image" width="30"  />
 ###### 6. What's the output?
 
 ```javascript
@@ -238,7 +239,7 @@ When you change one object, you change all of them.
 </details>
 
 ---
-
+<img src="./mySvg.svg" alt="SVG Image" width="30"  />
 ###### 7. What's the output?
 
 ```javascript
