@@ -1185,6 +1185,7 @@ console.log(typeof typeof 1);
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 37. What's the output?
 
@@ -1214,6 +1215,7 @@ depending on where you run it (it's different for every browser, node, etc.)
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 38. What's the output?
 
@@ -1251,6 +1253,7 @@ Outside of the `catch` block, `x` is still `undefined`, and `y` is `2`. When we 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 39. Everything in JavaScript is either a...
 
