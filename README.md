@@ -1050,6 +1050,8 @@ If we click `p`, we see two logs: `p` and `div`. During event propagation, there
 </details>
 
 ---
+<img src="./false.svg" alt="SVG Image" width="30"  />
+<img src="./imp.svg" alt="SVG Image" width="30"  />
 
 ###### 33. What's the output?
 
@@ -1078,12 +1080,19 @@ With both, we can pass the object to which we want the `this` keyword to refer t
 
 `.bind.` returns a _copy_ of the function, but with a bound context! It is not executed immediately.
 
+The first line within the console.log statement, sayHi.call(person, 21), invokes the sayHi function using the call method. The call method takes two arguments: the first argument sets the value of this within the function to the person object, and the second argument provides the value for the age parameter. This allows the function to access the name property of person using `this.name` and returns the string "Lydia is 21".
+
+The second line within the console.log statement, sayHi.bind(person, 21), uses the bind method. Unlike call, bind does not immediately invoke the function but returns a new function with the this value bound to the provided argument (person in this case). It also partially applies the function with the provided arguments (21 in this case). This means that when the bound function is invoked later, it will have the person object as the this value and the age parameter set to 21. To actually execute the bound function, it needs to be invoked separately, e.g., by appending () to it.
+
+In summary, call is used to invoke a function immediately with a specified this value and additional arguments, while bind is used to create a new function with a specified this value and optionally pre-filled arguments, without immediate execution.
+
 </p>
 </details>
 
 ---
 
 ###### 34. What's the output?
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ```javascript
 function sayHi() {
@@ -1111,6 +1120,7 @@ FYI: `typeof` can return the following list of values: `undefined`, `boolean`, `
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 35. Which of these values are falsy?
 
@@ -1150,6 +1160,7 @@ Function constructors, like `new Number` and `new Boolean` are truthy.
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 36. What's the output?
 
