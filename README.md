@@ -271,8 +271,8 @@ However, when we use the `===` operator (Strict equality operator), both value _
 </details>
 
 ---
-
-###### 8. What's the output?
+<img src="./mySvg.svg" alt="SVG Image" width="30"  />
+###### 8. What's the output? 
 
 ```javascript
 class Chameleon {
