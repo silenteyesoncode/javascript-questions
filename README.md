@@ -904,6 +904,8 @@ console.log(name.giveLydiaPizza())
 ---
 
 ###### 29. What's the output?
+<img src="./done.svg" alt="SVG Image" width="30"  />
+<img src="./imp.svg" alt="SVG Image" width="30"  />
 
 ```javascript
 const a = {};
