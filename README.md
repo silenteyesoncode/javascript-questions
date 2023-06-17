@@ -43,7 +43,9 @@ Feel free to reach out to me! 😊 <br />
 </p>
 </details>
 
+
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 1. What's the output?
 
@@ -76,6 +78,7 @@ Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, do
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 2. What's the output?
 
@@ -106,6 +109,7 @@ In the second loop, the variable `i` was declared using the `let` keyword: varia
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 3. What's the output?
 
@@ -143,7 +147,8 @@ There is no value `radius` on that object, which returns `NaN`.
 
 ---
 
-<img src="./mySvg.svg" alt="SVG Image" width="30"  />
+<img src="./done.svg" alt="SVG Image" width="30"  />
+
 ###### 4. What's the output?
 
 ```javascript
@@ -168,7 +173,8 @@ The string `'Lydia'` is a truthy value. What we're actually asking, is "is this 
 </details>
 
 ---
-<img src="./mySvg.svg" alt="SVG Image" width="30"  />
+<img src="./done.svg" alt="SVG Image" width="30"  />
+
 ###### 5. Which one is true?
 
 ```javascript
@@ -204,7 +210,8 @@ However, with dot notation, this doesn't happen. `mouse` does not have a key cal
 </details>
 
 ---
-<img src="./mySvg.svg" alt="SVG Image" width="30"  />
+<img src="./done.svg" alt="SVG Image" width="30"  />
+
 ###### 6. What's the output?
 
 ```javascript
@@ -239,7 +246,8 @@ When you change one object, you change all of them.
 </details>
 
 ---
-<img src="./mySvg.svg" alt="SVG Image" width="30"  />
+<img src="./done.svg" alt="SVG Image" width="30"  />
+
 ###### 7. What's the output?
 
 ```javascript
@@ -272,7 +280,8 @@ However, when we use the `===` operator (Strict equality operator), both value _
 </details>
 
 ---
-<img src="./mySvg.svg" alt="SVG Image" width="30"  />
+<img src="./done.svg" alt="SVG Image" width="30"  />
+
 ###### 8. What's the output? 
 
 ```javascript
@@ -307,6 +316,7 @@ The `colorChange` function is static. Static methods are designed to live only o
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 9. What's the output?
 
@@ -338,6 +348,7 @@ In order to avoid this, we can use `"use strict"`. This makes sure that you have
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 10. What happens when we do this?
 
@@ -367,6 +378,7 @@ A function is a special type of object. The code you write yourself isn't the ac
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 11. What's the output?
 
@@ -408,6 +420,7 @@ Person.prototype.getFullName = function() {
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 12. What's the output?
 
@@ -442,6 +455,7 @@ We said that `this.firstName` equals `"Sarah"` and `this.lastName` equals `"Smit
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 13. What are the three phases of event propagation?
 
@@ -463,6 +477,7 @@ During the **capturing** phase, the event goes through the ancestor elements dow
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 14. All object have prototypes.
 
@@ -480,6 +495,7 @@ All objects have prototypes, except for the **base object**. The base object is 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 15. What's the output?
 
@@ -509,6 +525,7 @@ In this example, JavaScript converts the number `1` into a string, in order for 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 16. What's the output?
 
@@ -545,6 +562,7 @@ This returns `0 2 2`.
 </details>
 
 ---
+<img src="./doubt.svg" alt="SVG Image" width="30"  />
 
 ###### 17. What's the output?
 
@@ -576,6 +594,7 @@ If you use tagged template literals, the value of the first argument is always a
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 18. What's the output?
 
