@@ -902,10 +902,10 @@ console.log(name.giveLydiaPizza())
 </details>
 
 ---
-
-###### 29. What's the output?
 <img src="./done.svg" alt="SVG Image" width="30"  />
 <img src="./imp.svg" alt="SVG Image" width="30"  />
+
+###### 29. What's the output?
 
 ```javascript
 const a = {};
@@ -938,6 +938,7 @@ Then, we log `a[b]`, which is actually `a["[object Object]"]`. We just set that 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 30. What's the output?
 
@@ -991,6 +992,7 @@ This is where an event loop starts to work. An **event loop** looks at the stack
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 31. What is the event.target when clicking the button?
 
@@ -1020,6 +1022,7 @@ The deepest nested element that caused the event is the target of the event. You
 </details>
 
 ---
+<img src="./false.svg" alt="SVG Image" width="30"  />
 
 ###### 32. When you click the paragraph, what's the logged output?
 
