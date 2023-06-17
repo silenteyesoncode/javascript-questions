@@ -5,6 +5,7 @@
 2. [Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects](#2-utilizing-the-rest-parameter-syntax-for-collecting-function-arguments-as-array-like-objects)
 
 3. [hasOwnProperty()](#3-hasownproperty)
+4. [Table summarizing the differences between var, let, and const in JavaScript](#4)
 
 
 ## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers
@@ -47,6 +48,44 @@ getAge(21);
 - ### [hasOwnProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 
 - The hasOwnProperty() method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it
+
+
+## 4. Table summarizing the differences between var, let, and const in JavaScript
+
+#### var:
+
+- Variables declared with `var` have function scope. This means that they are accessible throughout the entire function in which they are declared.
+- Variables declared with `var` are hoisted, which means they are moved to the top of their scope during the compilation phase.
+- `var` allows variables to be redeclared and reassigned within its scope.
+
+#### let:
+
+- Variables declared with `let` have block scope. They are only accessible within the block ({}) in which they are defined.
+- `let` does not allow variables to be redeclared within the same block scope, but it allows them to be reassigned.
+- `let` variables are not hoisted, so they need to be declared before they are used.
+
+#### const:
+
+- Variables declared with `const` also have block scope.
+- `const` stands for "constant," which means that once a value is assigned to a `const` variable, it cannot be reassigned.
+- `const` variables must be assigned a value at the time of declaration and cannot be left uninitialized.
+- Like `let`, `const` variables are not hoisted and need to be declared before use.
+
+
+
+| Feature   | var                         | let                          | const                        |
+|-----------|-----------------------------|------------------------------|------------------------------|
+| Scope     | Function scope              | Block scope                  | Block scope                  |
+| Hoisting  | Hoisted                     | Not hoisted                  | Not hoisted                  |
+| Redeclaration  | Allowed within scope     | Not allowed within same scope | Not allowed within same scope |
+| Reassignment   | Allowed                   | Allowed                      | Not allowed                  |
+| Initialization | Can be left uninitialized | Can be left uninitialized    | Must be initialized          |
+
+- Remember that `var` has function scope, while `let` and `const` have block scope. Variables declared with `var` are hoisted, meaning they are moved to the top of their scope during compilation. However, `let` and `const` variables are not hoisted and need to be declared before use.
+
+- With `var`, variables can be redeclared and reassigned within the same scope. In contrast, `let` does not allow redeclaration within the same block scope, although reassignment is permitted. `const` variables are constants and cannot be reassigned after they are initialized. They must be assigned a value at the time of declaration and cannot be left uninitialized.
+
+- Using `let` and `const` is generally recommended over `var` in modern JavaScript, as they provide better scoping behavior and help prevent common issues associated with `var`, such as accidental global scope pollution.
 
 
 
