@@ -1,5 +1,13 @@
+## Table of Contents
 
-## 1. Understanding JavaScript's Data Types: Objects, Primitives, and Object Wrappers
+1. [Understanding JavaScript's Data Types: Objects, Primitives, and Object Wrappers](#1-understanding-javascripts-data-types-objects-primitives-and-object-wrappers)
+
+2. [Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects](#2-utilizing-the-rest-parameter-syntax-for-collecting-function-arguments-as-array-like-objects)
+
+3. [hasOwnProperty()](#3-hasownproperty)
+
+
+## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers
 -  In JavaScript, not everything is an object. JavaScript has built-in primitive data types that are not objects. These primitive types include numbers, strings, booleans, null, and undefined. They are not objects and do not have properties or methods like objects do.
 
 -  However, JavaScript also has object wrappers for these primitive types. For example, there is a Number object wrapper for numbers, a String object wrapper for strings, and a Boolean object wrapper for booleans. These object wrappers allow you to access properties and methods associated with the primitive values.
