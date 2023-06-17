@@ -45,7 +45,7 @@ getAge(21);
 
 ## 3. hasOwnProperty()
 
-- ### [hasOwnProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+- #### [hasOwnProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 
 - The hasOwnProperty() method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it
 
@@ -81,10 +81,30 @@ getAge(21);
 | Reassignment   | Allowed                   | Allowed                      | Not allowed                  |
 | Initialization | Can be left uninitialized | Can be left uninitialized    | Must be initialized          |
 
+- Remember that `var` has function scope, while `let` and `const` have block scope. Variables declared with `var` are hoisted, meaning they are moved to the top of their scope during compilation. However, `let` and `const` variables are not hoisted and need to be declared before use.
+
+- With `var`, variables can be redeclared and reassigned within the same scope. In contrast, `let` does not allow redeclaration within the same block scope, although reassignment is permitted. `const` variables are constants and cannot be reassigned after they are initialized. They must be assigned a value at the time of declaration and cannot be left uninitialized.
+
+- Using `let` and `const` is generally recommended over `var` in modern JavaScript, as they provide better scoping behavior and help prevent common issues associated with `var`, such as accidental global scope pollution.
 
 
+## 5. continue
 
+- #### [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
+- The continue statement terminates execution of the statements in the current iteration of the current or labeled loop, and continues execution of the loop with the next iteration.
 
+```
+let text = '';
+
+for (let i = 0; i < 10; i++) {
+  if (i === 3) {
+    continue;
+  }
+  text = text + i;
+}
+
+console.log(text);
+```
 
 
 
