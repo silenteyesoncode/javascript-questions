@@ -1,1 +1,3 @@
 - [17. What's the output?](https://github.com/silenteyesoncode/javascript-questions#17-whats-the-output)
+- [28. What's the output?](https://github.com/silenteyesoncode/javascript-questions#28-whats-the-output)
+- 
