@@ -801,6 +801,7 @@ It doesn't work that way for a set. There is no `'1'` in our set: `set.has('1')`
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 25. What's the output?
 
@@ -825,6 +826,7 @@ If you have two keys with the same name, the key will be replaced. It will still
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 26. The JavaScript global execution context creates two things for you: the global object, and the "this" keyword.
 
@@ -843,6 +845,7 @@ The base execution context is the global execution context: it's what's accessib
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 27. What's the output?
 
@@ -869,6 +872,7 @@ The `continue` statement skips an iteration if a certain condition returns `true
 </details>
 
 ---
+<img src="./doubt.svg" alt="SVG Image" width="30"  />
 
 ###### 28. What's the output?
 
