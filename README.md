@@ -631,6 +631,7 @@ This is why both `{ age: 18 } === { age: 18 }` and `{ age: 18 } == { age: 18 }` 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 19. What's the output?
 
@@ -658,6 +659,7 @@ The rest parameter (`...args`) lets us "collect" all remaining arguments into an
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 20. What's the output?
 
@@ -687,6 +689,7 @@ With `"use strict"`, you can make sure that you don't accidentally declare globa
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 21. What's the value of `sum`?
 
@@ -710,6 +713,7 @@ const sum = eval('10*10+5');
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 22. How long is cool_secret accessible?
 
