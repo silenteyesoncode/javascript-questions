@@ -18,3 +18,17 @@ console.log(typeof numObject); // Output: "object"
 console.log(numPrimitive.toFixed(2)); // Output: 42.00
 console.log(numObject.toFixed(2)); // Output: 42.00
 ```
+
+## 2. Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects
+- When using the rest parameter syntax (...args), the collected arguments are stored as an array-like object called args. This means that args behaves similarly to an array in terms of accessing individual elements and the length property. However, it does not have access to array methods like push, pop, or forEach.
+
+- To perform array operations or use array methods on args, you can convert it into a proper array using techniques like the Array.from() method or the spread syntax [...args].
+
+```
+function getAge(...args) {
+  const argsArray = Array.from(args); // Convert args to an array
+  console.log(argsArray);
+}
+
+getAge(21);
+```
