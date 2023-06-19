@@ -8,7 +8,8 @@
 5. [continue](#5-continue)
 6. [reduce](#6-reduce)
 7. [Truthy and Falsy Values in JavaScript](#7-truthy-and-falsy-values-in-javascript)
-7. [Promise.race](#8-Promise.race )
+8. [Promise.race](#8-promiserace)
+
 
 
 
