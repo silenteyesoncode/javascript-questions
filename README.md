@@ -1423,6 +1423,7 @@ Then, we invoke the function again with the `next()` method. It starts to contin
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 45. What does this return?
 
@@ -1454,6 +1455,7 @@ When we pass multiple promises to the `Promise.race` method, it resolves/rejects
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 46. What's the output?
 
@@ -1493,6 +1495,7 @@ We are only modifying the value of the `person` variable, and not the first elem
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 47. What's the output?
 
@@ -1523,6 +1526,7 @@ With a `for-in` loop, we can iterate through object keys, in this case `name` an
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 48. What's the output?
 
@@ -1550,6 +1554,7 @@ Operator associativity is the order in which the compiler evaluates the expressi
 </details>
 
 ---
+<img src="./doubt.svg" alt="SVG Image" width="30"/>
 
 ###### 49. What's the value of `num`?
 
@@ -1575,6 +1580,7 @@ Only the first numbers in the string is returned. Based on the _radix_ (the seco
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 50. What's the output?
 
@@ -1603,6 +1609,7 @@ However, we don’t return a value. When we don’t return a value from the func
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 51. What's the output?
 
