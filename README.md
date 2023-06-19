@@ -1338,8 +1338,10 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 42. What does the `setInterval` method return in the browser?
+
 
 ```javascript
 setInterval(() => console.log('Hi'), 1000);
@@ -1361,6 +1363,7 @@ It returns a unique id. This id can be used to clear that interval with the `cle
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 43. What does this return?
 
@@ -1384,6 +1387,7 @@ A string is an iterable. The spread operator maps every character of an iterable
 </details>
 
 ---
+<img src="./doubt.svg" alt="SVG Image" width="30"  />
 
 ###### 44. What's the output?
 
