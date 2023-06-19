@@ -7,6 +7,7 @@
 3. [hasOwnProperty()](#3-hasownproperty)
 4. [Table summarizing the differences between var, let, and const in JavaScript](#4-table-summarizing-the-differences-between-var-let-and-const-in-javascript)
 5. [continue](#5-continue)
+6. [reduce](#6-reduce())
 
 
 ## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers
@@ -106,6 +107,8 @@ for (let i = 0; i < 10; i++) {
 
 console.log(text);
 ```
+
+# 6 Reduce()
 
 
 
