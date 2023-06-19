@@ -111,6 +111,23 @@ console.log(text);
 ## 6. Reduce()
 
 - The reduce() method takes two parameters: a callback function and an optional initial value. The callback function is executed on each element of the array, and it takes four arguments: accumulator, currentValue, currentIndex, and the array itself.
+
+```
+array.reduce(callback[, initialValue])
+```
+
+The callback function is called for each element in the array, and it has the following arguments:
+
+- `accumulator`: It is the accumulated value computed from previous iterations. In the first iteration, if an initial value is provided, the accumulator will be set to that value. Otherwise, it will be set to the first element of the array, and the iteration will start from the second element.
+- `currentValue`: It is the current element being processed in the array.
+- `currentIndex` (optional): It is the index of the current element being processed.
+- `array` (optional): It is the array on which `reduce()` was called.
+
+The callback function should return the updated accumulator value after performing the desired operation on the `currentValue`. The returned accumulator value will be used as the accumulator in the next iteration.
+
+If an initial value is provided as the second argument to `reduce()`, the iteration starts from the first element of the array with the initial value as the accumulator. If no initial value is provided, the iteration starts from the second element of the array, and the first element becomes the initial value.
+
+
  
 
 ```
