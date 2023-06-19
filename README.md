@@ -1277,6 +1277,7 @@ What differentiates a primitive from an object is that primitives do not have an
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 40. What's the output?
 
@@ -1307,6 +1308,7 @@ Then, `[1, 2, 0, 1]` is `acc` and `[2, 3]` is `cur`. We concatenate them, and ge
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"  />
 
 ###### 41. What's the output?
 
