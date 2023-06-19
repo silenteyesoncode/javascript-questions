@@ -1,4 +1,5 @@
-## Table of Contents
+# MyNotes
+### Table of Contents
 
 1. [Understanding JavaScript's Data Types: Objects, Primitives, and Object Wrappers](#1-understanding-javascripts-data-types-objects-primitives-and-object-wrappers)
 2. [Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects](#2-utilizing-the-rest-parameter-syntax-for-collecting-function-arguments-as-array-like-objects)
