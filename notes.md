@@ -8,10 +8,12 @@
 5. [continue](#5-continue)
 6. [reduce](#6-reduce)
 7. [Truthy and Falsy Values in JavaScript](#7-truthy-and-falsy-values-in-javascript)
+8. [Promise.race](#8-promiserace)
 
 
 
-## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers
+
+## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers 
 -  In JavaScript, not everything is an object. JavaScript has built-in primitive data types that are not objects. These primitive types include numbers, strings, booleans, null, and undefined. They are not objects and do not have properties or methods like objects do.
 
 -  However, JavaScript also has object wrappers for these primitive types. For example, there is a Number object wrapper for numbers, a String object wrapper for strings, and a Boolean object wrapper for booleans. These object wrappers allow you to access properties and methods associated with the primitive values.
@@ -30,6 +32,7 @@ console.log(typeof numObject); // Output: "object"
 console.log(numPrimitive.toFixed(2)); // Output: 42.00
 console.log(numObject.toFixed(2)); // Output: 42.00
 ```
+### [Back to Top](#mynotes)
 
 ## 2. Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects
 - When using the rest parameter syntax (...args), the collected arguments are stored as an array-like object called args. This means that args behaves similarly to an array in terms of accessing individual elements and the length property. However, it does not have access to array methods like push, pop, or forEach.
@@ -45,14 +48,14 @@ function getAge(...args) {
 getAge(21);
 ```
 
-
+### [Back to Top](#mynotes)
 ## 3. hasOwnProperty()
 
 - #### [hasOwnProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
 
 - The hasOwnProperty() method returns a boolean indicating whether the object has the specified property as its own property (as opposed to inheriting it
 
-
+### [Back to Top](#mynotes)
 ## 4. Table summarizing the differences between var, let, and const in JavaScript
 
 #### var:
@@ -90,7 +93,7 @@ getAge(21);
 
 - Using `let` and `const` is generally recommended over `var` in modern JavaScript, as they provide better scoping behavior and help prevent common issues associated with `var`, such as accidental global scope pollution.
 
-
+### [Back to Top](#mynotes)
 ## 5. continue
 
 - #### [continue](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/continue)
@@ -108,7 +111,7 @@ for (let i = 0; i < 10; i++) {
 
 console.log(text);
 ```
-
+### [Back to Top](#mynotes)
 ## 6. Reduce()
 
 - The reduce() method takes two parameters: a callback function and an optional initial value. The callback function is executed on each element of the array, and it takes four arguments: accumulator, currentValue, currentIndex, and the array itself.
@@ -151,7 +154,7 @@ accumulator: 48, currentValue: 18, index: 3, returns: 66
 accumulator: 66, currentValue: 19, index: 4, returns: 85
 
 ```
-
+### [Back to Top](#mynotes)
 ## 7. Truthy and Falsy Values in JavaScript
 
 | Falsy Values | Truthy Values      |
@@ -163,6 +166,13 @@ accumulator: 66, currentValue: 19, index: 4, returns: 85
 | `undefined`  | `[1, 2, 3]`        |
 | `NaN`        | `function() {}`    |
 
+
+### [Back to Top](#mynotes)
+
+## 8. Promise.race 
+
+- [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
+- Promise.race() is a JavaScript function that takes an array of promises as input and returns a new promise. The new promise settles (resolves or rejects) as soon as any of the promises in the input array settles.
 
 
 
