@@ -1,13 +1,13 @@
 ## Table of Contents
 
 1. [Understanding JavaScript's Data Types: Objects, Primitives, and Object Wrappers](#1-understanding-javascripts-data-types-objects-primitives-and-object-wrappers)
-
 2. [Utilizing the Rest Parameter Syntax for Collecting Function Arguments as Array-Like Objects](#2-utilizing-the-rest-parameter-syntax-for-collecting-function-arguments-as-array-like-objects)
-
 3. [hasOwnProperty()](#3-hasownproperty)
 4. [Table summarizing the differences between var, let, and const in JavaScript](#4-table-summarizing-the-differences-between-var-let-and-const-in-javascript)
 5. [continue](#5-continue)
 6. [reduce](#6-reduce)
+7. [Truthy and Falsy Values in JavaScript](#7-truthy-and-falsy-values-in-javascript)
+
 
 
 ## 1. JavaScript's Data Types: Objects, Primitives, and Object Wrappers
@@ -150,6 +150,17 @@ accumulator: 48, currentValue: 18, index: 3, returns: 66
 accumulator: 66, currentValue: 19, index: 4, returns: 85
 
 ```
+
+## 7. Truthy and Falsy Values in JavaScript
+
+| Falsy Values | Truthy Values      |
+|--------------|--------------------|
+| `false`      | `true`             |
+| `0`          | `1`                |
+| `""`         | `"Hello"`          |
+| `null`       | `{}` (empty object)|
+| `undefined`  | `[1, 2, 3]`        |
+| `NaN`        | `function() {}`    |
 
 
 
