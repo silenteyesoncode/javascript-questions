@@ -1647,6 +1647,7 @@ The value of `person` is an object. The argument `member` has a (copied) referen
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 52. What's the output?
 
@@ -1685,6 +1686,7 @@ With the `catch` statement, we can specify what to do if an exception is thrown 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 53. What's the output?
 
@@ -1714,6 +1716,7 @@ When you return a property, the value of the property is equal to the _returned_
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 54. What's the output?
 
@@ -1753,6 +1756,7 @@ However, we created a global variable `y` when setting `y` equal to `10`. This v
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 55. What's the output?
 
@@ -1794,6 +1798,7 @@ When we try to invoke something that is not a function, a `TypeError` is thrown.
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 56. What's the output?
 
@@ -1821,6 +1826,7 @@ We passed the iterable `[1, 1, 2, 3, 4]` with a duplicate value `1`. Since we ca
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 57. What's the output?
 
@@ -1857,6 +1863,7 @@ When we try to increment the value of `myCounter`, it throws an error: `myCounte
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 58. What's the output?
 
@@ -1886,6 +1893,8 @@ The `name` variable was declared with a `const` keyword, so its deletion is not 
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
+<img src="./imp.svg" alt="SVG Image" width="30"/>
 
 ###### 59. What's the output?
 
@@ -1928,6 +1937,7 @@ This means that the value of `y` is equal to the first value in the array, which
 </details>
 
 ---
+<img src="./done.svg" alt="SVG Image" width="30"/>
 
 ###### 60. What's the output?
 
@@ -1954,6 +1964,9 @@ It's possible to combine objects using the spread operator `...`. It lets you cr
 </details>
 
 ---
+<img src="./imp.svg" alt="SVG Image" width="30"/>
+<img src="./false.svg" alt="SVG Image" width="30"/>
+
 
 ###### 61. What's the output?
 

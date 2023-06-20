@@ -9,6 +9,10 @@
 6. [reduce](#6-reduce)
 7. [Truthy and Falsy Values in JavaScript](#7-truthy-and-falsy-values-in-javascript)
 8. [Promise.race](#8-promiserace)
+9. [Type of Error in JavaScript](#9-type-of-error-in-javascript)
+10. [Delete operator](#10-delete-operator)
+11. [Object.keys](#11-objectkeys)
+11. [Object.defineProperty](#12-objectdefineproperty)
 
 
 
@@ -173,6 +177,68 @@ accumulator: 66, currentValue: 19, index: 4, returns: 85
 
 - [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race)
 - Promise.race() is a JavaScript function that takes an array of promises as input and returns a new promise. The new promise settles (resolves or rejects) as soon as any of the promises in the input array settles.
+
+## 9. Type of Error IN JavaScript
+
+- `SyntaxError`: This error occurs when there is a syntax mistake in the code, such as missing or mismatched parentheses, brackets, or semicolons.
+
+- `ReferenceError`: This error occurs when trying to access a variable or function that is not defined or out of scope.
+
+- `TypeError`: This error occurs when a value has an unexpected data type or is used in a way that is incompatible with its type. For example, trying to call a non-function as a function or accessing properties on an undefined or null value.
+
+- `RangeError`: This error occurs when a value is outside the range of acceptable values. For example, trying to create an array with a negative length or calling a function with too many recursive iterations.
+
+- `URIError`: This error occurs when using invalid characters in URI-related functions, such as encodeURI, decodeURI, encodeURIComponent, or decodeURIComponent.
+
+- `EvalError`: This error is not commonly encountered in modern JavaScript. It was used for errors that occurred within the eval() function, but its usage has been deprecated.
+
+## 10. Delete operator
+- The [**delete**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
+
+
+```
+const Employee = {
+  firstname: 'John',
+  lastname: 'Doe'
+};
+
+console.log(Employee.firstname);
+// Expected output: "John"
+
+delete Employee.firstname;
+
+console.log(Employee.firstname);
+// Expected output: undefined
+```
+
+## 11. Object.keys()
+
+- The [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) static method returns an array of a given object's own enumerable string-keyed property names.
+
+``` 
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+console.log(Object.keys(object1));
+// Expected output: Array ["a", "b", "c"]
+```
+## 12. Object.defineProperty()
+
+- The [Object.defineProperty()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty) static method returns an array of a given object's own enumerable string-keyed property names.
+
+``` 
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+console.log(Object.keys(object1));
+// Expected output: Array ["a", "b", "c"]
+```
+
+
 
 
 
